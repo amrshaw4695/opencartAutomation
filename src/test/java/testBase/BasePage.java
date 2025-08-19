@@ -19,7 +19,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
 public class BasePage {
-	protected static WebDriver driver;
+	public static WebDriver driver;
 	public Properties properties;
 
 	@SuppressWarnings("deprecation")
